@@ -1,0 +1,48 @@
+# ========================
+# TARGET WEBSITE CONFIG
+# ========================
+target:
+  base_url: "https://www.example.com/category/culture/page/{}/"
+  html_selectors:
+    article: "article"
+    title: 
+      - "h2"
+      - "entry-title"
+    date: 
+      - "time"
+      - "entry-date"
+    content: 
+      - "div"
+      - "entry-content"
+
+# ========================
+# NARRATIVE TERMS 
+# ========================
+terms:
+  traditional: "term_lists/traditional_terms.txt"
+  modern: "term_lists/modern_terms.txt"
+
+# ========================
+# VISUALIZATION SETTINGS
+# ======================== 
+visualization:
+  width: 1200
+  height: 600
+  colors:
+    traditional: "#008751"
+    modern: "#FFD100"
+    other: "#E8112D"
+  stopwords:
+    - "lire la suite"
+    - "commentaires"
+    - "janvier"
+    - "février"
+    - "dimanche"
+
+# ========================
+# EXECUTION SETTINGS
+# ========================
+settings:
+  delay: 1
+  pages: 5
+  encoding: "utf-8"

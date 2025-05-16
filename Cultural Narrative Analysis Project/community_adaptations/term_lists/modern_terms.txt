@@ -1,0 +1,10 @@
+# Customize these terms for modern/contemporary themes
+numérique
+jeunesse
+technologie
+digital
+startup
+innovation
+média
+podcast
+éducation

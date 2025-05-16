@@ -1,0 +1,9 @@
+```python
+# Core dependencies
+beautifulsoup4==4.12.2  # HTML parsing
+requests==2.31.0         # HTTP requests
+pandas==2.0.3            # Data analysis
+matplotlib==3.7.2        # Visualizations
+wordcloud==1.9.2         # Narrative theme mapping
+python-dateutil==2.8.2   # Date parsing
+stop-words==2022.7.10    # Multilingual stopwords
